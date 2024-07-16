@@ -126,3 +126,6 @@ appropriate.
 
 All of that said, this feels like a hack. I'm sure there's a better way to do
 this and I'm open to suggestions!
+
+# more context
+[this bug](https://github.com/flutter/flutter/issues/144687)
