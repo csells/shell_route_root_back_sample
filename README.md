@@ -38,7 +38,7 @@ class _ShellPageState extends State<ShellPage> {
               : const SizedBox(),
           title: const Text(App.title),
         ),
-        body: ...
+        body: ... // colored panes and the ShellRoute child widget
       );
 }
 ```
