@@ -14,11 +14,15 @@ to illustrate what I mean:
 
 To enable the back button on the top-level AppBar, I manually added the
 BackButton to the AppBar for the ShellPage, which is the top-level widget
-I defined to be created by the ShellRoute to hold the top-level UI:
+I defined to hold the top-level UI:
 
 ```dart
 class ShellPage extends StatefulWidget {
-  ...
+  final Widget child;
+  final ShellPageController controller;
+
+  const ShellPage({super.key, required this.child, required this.controller});
+
   @override
   State<ShellPage> createState() => _ShellPageState();
 }
